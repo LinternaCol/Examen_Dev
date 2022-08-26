@@ -9,9 +9,8 @@ public class PruebaApplication {
 	static Read read = new Read();
 
 	public static void main(String[] args) {
-		read.leer();
 		SpringApplication.run(PruebaApplication.class, args);
-
+		read.leer();
 
 
 
