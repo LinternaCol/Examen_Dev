@@ -30,6 +30,9 @@ public class UserServiceImple implements UserService {
         this.userRepository = userRepository;
     }
 
+    public UserServiceImple() {
+    }
+
     @Override
     public UserModel save(UserDto registroDTO) {
         UserModel usuario = new UserModel(registroDTO.getNombre(),

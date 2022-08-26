@@ -10,6 +10,8 @@ public class UserDto {
     private String celular;
     private String password;
  //Constructor
+
+
     public UserDto(String nombre, Long cedula, String email, String celular, String password) {
         this.nombre = nombre;
         this.cedula = cedula;
